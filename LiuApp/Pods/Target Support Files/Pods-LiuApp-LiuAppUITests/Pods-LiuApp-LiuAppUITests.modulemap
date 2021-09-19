@@ -1,0 +1,6 @@
+framework module Pods_LiuApp_LiuAppUITests {
+  umbrella header "Pods-LiuApp-LiuAppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

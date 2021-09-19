@@ -15,6 +15,9 @@
 		069A605F26F7643B00A3CBF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 069A605D26F7643B00A3CBF1 /* LaunchScreen.storyboard */; };
 		069A606A26F7643C00A3CBF1 /* LiuAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069A606926F7643C00A3CBF1 /* LiuAppTests.swift */; };
 		069A607526F7643C00A3CBF1 /* LiuAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069A607426F7643C00A3CBF1 /* LiuAppUITests.swift */; };
+		0EA924EAF4C043BE2C3BBFDB /* Pods_LiuApp_LiuAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C268EC2CFC4F11C9B18730CD /* Pods_LiuApp_LiuAppUITests.framework */; };
+		B5D1037AC5310D1B304C3681 /* Pods_LiuAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E468C3C274819B6B56AF8CC /* Pods_LiuAppTests.framework */; };
+		CAAB1902B35F923A1868FCFF /* Pods_LiuApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC7238B4F871AA7F906C21F /* Pods_LiuApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,15 @@
 		069A607026F7643C00A3CBF1 /* LiuAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiuAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		069A607426F7643C00A3CBF1 /* LiuAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiuAppUITests.swift; sourceTree = "<group>"; };
 		069A607626F7643C00A3CBF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E468C3C274819B6B56AF8CC /* Pods_LiuAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LiuAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		267EB994C2E6DD618771BDD5 /* Pods-LiuApp-LiuAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiuApp-LiuAppUITests.release.xcconfig"; path = "Target Support Files/Pods-LiuApp-LiuAppUITests/Pods-LiuApp-LiuAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		68AA7561569D7F8EEA6C7AEF /* Pods-LiuAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiuAppTests.release.xcconfig"; path = "Target Support Files/Pods-LiuAppTests/Pods-LiuAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		7B650724CF3A7B3B7FBCEFAA /* Pods-LiuApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiuApp.debug.xcconfig"; path = "Target Support Files/Pods-LiuApp/Pods-LiuApp.debug.xcconfig"; sourceTree = "<group>"; };
+		8D84C1955A8E23F53F04FF5E /* Pods-LiuApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiuApp.release.xcconfig"; path = "Target Support Files/Pods-LiuApp/Pods-LiuApp.release.xcconfig"; sourceTree = "<group>"; };
+		BEC7238B4F871AA7F906C21F /* Pods_LiuApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LiuApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C268EC2CFC4F11C9B18730CD /* Pods_LiuApp_LiuAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LiuApp_LiuAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C58810D9D10AB20E9DF12817 /* Pods-LiuApp-LiuAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiuApp-LiuAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-LiuApp-LiuAppUITests/Pods-LiuApp-LiuAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D70EF0126DB52063E1DBEF5A /* Pods-LiuAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiuAppTests.debug.xcconfig"; path = "Target Support Files/Pods-LiuAppTests/Pods-LiuAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAAB1902B35F923A1868FCFF /* Pods_LiuApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5D1037AC5310D1B304C3681 /* Pods_LiuAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EA924EAF4C043BE2C3BBFDB /* Pods_LiuApp_LiuAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				069A606826F7643C00A3CBF1 /* LiuAppTests */,
 				069A607326F7643C00A3CBF1 /* LiuAppUITests */,
 				069A605026F7643B00A3CBF1 /* Products */,
+				9E654920D95BE533F658D9C1 /* Pods */,
+				816784FC0BA99383E3489029 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +145,30 @@
 			path = LiuAppUITests;
 			sourceTree = "<group>";
 		};
+		816784FC0BA99383E3489029 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BEC7238B4F871AA7F906C21F /* Pods_LiuApp.framework */,
+				C268EC2CFC4F11C9B18730CD /* Pods_LiuApp_LiuAppUITests.framework */,
+				1E468C3C274819B6B56AF8CC /* Pods_LiuAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E654920D95BE533F658D9C1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7B650724CF3A7B3B7FBCEFAA /* Pods-LiuApp.debug.xcconfig */,
+				8D84C1955A8E23F53F04FF5E /* Pods-LiuApp.release.xcconfig */,
+				C58810D9D10AB20E9DF12817 /* Pods-LiuApp-LiuAppUITests.debug.xcconfig */,
+				267EB994C2E6DD618771BDD5 /* Pods-LiuApp-LiuAppUITests.release.xcconfig */,
+				D70EF0126DB52063E1DBEF5A /* Pods-LiuAppTests.debug.xcconfig */,
+				68AA7561569D7F8EEA6C7AEF /* Pods-LiuAppTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +176,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 069A607926F7643C00A3CBF1 /* Build configuration list for PBXNativeTarget "LiuApp" */;
 			buildPhases = (
+				98A62C33965144267D8FF0A3 /* [CP] Check Pods Manifest.lock */,
 				069A604B26F7643B00A3CBF1 /* Sources */,
 				069A604C26F7643B00A3CBF1 /* Frameworks */,
 				069A604D26F7643B00A3CBF1 /* Resources */,
@@ -152,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 069A607C26F7643C00A3CBF1 /* Build configuration list for PBXNativeTarget "LiuAppTests" */;
 			buildPhases = (
+				022246B9811CDC18C16EFB18 /* [CP] Check Pods Manifest.lock */,
 				069A606126F7643C00A3CBF1 /* Sources */,
 				069A606226F7643C00A3CBF1 /* Frameworks */,
 				069A606326F7643C00A3CBF1 /* Resources */,
@@ -170,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 069A607F26F7643C00A3CBF1 /* Build configuration list for PBXNativeTarget "LiuAppUITests" */;
 			buildPhases = (
+				3C8022BE52CAF8312A6F978E /* [CP] Check Pods Manifest.lock */,
 				069A606C26F7643C00A3CBF1 /* Sources */,
 				069A606D26F7643C00A3CBF1 /* Frameworks */,
 				069A606E26F7643C00A3CBF1 /* Resources */,
@@ -252,6 +296,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		022246B9811CDC18C16EFB18 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LiuAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C8022BE52CAF8312A6F978E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LiuApp-LiuAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98A62C33965144267D8FF0A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LiuApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		069A604B26F7643B00A3CBF1 /* Sources */ = {
@@ -433,6 +546,7 @@
 		};
 		069A607A26F7643C00A3CBF1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B650724CF3A7B3B7FBCEFAA /* Pods-LiuApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +566,7 @@
 		};
 		069A607B26F7643C00A3CBF1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D84C1955A8E23F53F04FF5E /* Pods-LiuApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +586,7 @@
 		};
 		069A607D26F7643C00A3CBF1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D70EF0126DB52063E1DBEF5A /* Pods-LiuAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +609,7 @@
 		};
 		069A607E26F7643C00A3CBF1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68AA7561569D7F8EEA6C7AEF /* Pods-LiuAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +632,7 @@
 		};
 		069A608026F7643C00A3CBF1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C58810D9D10AB20E9DF12817 /* Pods-LiuApp-LiuAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +653,7 @@
 		};
 		069A608126F7643C00A3CBF1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 267EB994C2E6DD618771BDD5 /* Pods-LiuApp-LiuAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
