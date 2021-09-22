@@ -9,8 +9,7 @@
 /* Begin PBXBuildFile section */
 		069A605326F7643B00A3CBF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069A605226F7643B00A3CBF1 /* AppDelegate.swift */; };
 		069A605526F7643B00A3CBF1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069A605426F7643B00A3CBF1 /* SceneDelegate.swift */; };
-		069A605726F7643B00A3CBF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069A605626F7643B00A3CBF1 /* ViewController.swift */; };
-		069A605A26F7643B00A3CBF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 069A605826F7643B00A3CBF1 /* Main.storyboard */; };
+		069A605726F7643B00A3CBF1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069A605626F7643B00A3CBF1 /* HomeViewController.swift */; };
 		069A605C26F7643B00A3CBF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 069A605B26F7643B00A3CBF1 /* Assets.xcassets */; };
 		069A605F26F7643B00A3CBF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 069A605D26F7643B00A3CBF1 /* LaunchScreen.storyboard */; };
 		069A606A26F7643C00A3CBF1 /* LiuAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069A606926F7643C00A3CBF1 /* LiuAppTests.swift */; };
@@ -41,8 +40,7 @@
 		069A604F26F7643B00A3CBF1 /* LiuApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiuApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		069A605226F7643B00A3CBF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		069A605426F7643B00A3CBF1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		069A605626F7643B00A3CBF1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		069A605926F7643B00A3CBF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		069A605626F7643B00A3CBF1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		069A605B26F7643B00A3CBF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		069A605E26F7643B00A3CBF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		069A606026F7643B00A3CBF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -91,6 +89,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		065C381326FB5A6F00A7EE74 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				069A605226F7643B00A3CBF1 /* AppDelegate.swift */,
+				069A605426F7643B00A3CBF1 /* SceneDelegate.swift */,
+				069A605B26F7643B00A3CBF1 /* Assets.xcassets */,
+				069A605D26F7643B00A3CBF1 /* LaunchScreen.storyboard */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		065C381426FB5A8E00A7EE74 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				065C381526FB5A9C00A7EE74 /* Home */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		065C381526FB5A9C00A7EE74 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				069A605626F7643B00A3CBF1 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		069A604626F7643B00A3CBF1 = {
 			isa = PBXGroup;
 			children = (
@@ -116,13 +141,9 @@
 		069A605126F7643B00A3CBF1 /* LiuApp */ = {
 			isa = PBXGroup;
 			children = (
-				069A605226F7643B00A3CBF1 /* AppDelegate.swift */,
-				069A605426F7643B00A3CBF1 /* SceneDelegate.swift */,
-				069A605626F7643B00A3CBF1 /* ViewController.swift */,
-				069A605826F7643B00A3CBF1 /* Main.storyboard */,
-				069A605B26F7643B00A3CBF1 /* Assets.xcassets */,
-				069A605D26F7643B00A3CBF1 /* LaunchScreen.storyboard */,
 				069A606026F7643B00A3CBF1 /* Info.plist */,
+				065C381426FB5A8E00A7EE74 /* Screens */,
+				065C381326FB5A6F00A7EE74 /* Support */,
 			);
 			path = LiuApp;
 			sourceTree = "<group>";
@@ -165,7 +186,6 @@
 				D70EF0126DB52063E1DBEF5A /* Pods-LiuAppTests.debug.xcconfig */,
 				68AA7561569D7F8EEA6C7AEF /* Pods-LiuAppTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -180,6 +200,7 @@
 				069A604B26F7643B00A3CBF1 /* Sources */,
 				069A604C26F7643B00A3CBF1 /* Frameworks */,
 				069A604D26F7643B00A3CBF1 /* Resources */,
+				065C381726FB5FEF00A7EE74 /* Run SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -277,7 +298,6 @@
 			files = (
 				069A605F26F7643B00A3CBF1 /* LaunchScreen.storyboard in Resources */,
 				069A605C26F7643B00A3CBF1 /* Assets.xcassets in Resources */,
-				069A605A26F7643B00A3CBF1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +339,24 @@
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
+		};
+		065C381726FB5FEF00A7EE74 /* Run SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run SwiftLint";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
 		};
 		3C8022BE52CAF8312A6F978E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -371,7 +409,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				069A605726F7643B00A3CBF1 /* ViewController.swift in Sources */,
+				069A605726F7643B00A3CBF1 /* HomeViewController.swift in Sources */,
 				069A605326F7643B00A3CBF1 /* AppDelegate.swift in Sources */,
 				069A605526F7643B00A3CBF1 /* SceneDelegate.swift in Sources */,
 			);
@@ -409,14 +447,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		069A605826F7643B00A3CBF1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				069A605926F7643B00A3CBF1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		069A605D26F7643B00A3CBF1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -553,6 +583,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XC26654A2X;
 				INFOPLIST_FILE = LiuApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -560,7 +591,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.changhongliu.LiuApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -573,6 +604,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XC26654A2X;
 				INFOPLIST_FILE = LiuApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -580,7 +612,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.changhongliu.LiuApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
